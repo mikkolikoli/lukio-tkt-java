@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=pWert
+comment0.target=Zahl(int)
+comment0.text=\nKonstruktor\ f\u00C3\u00BCr\ Objekte\ der\ Klasse\ Zahl\n\n
+comment1.target=int\ gibWert()
+comment2.params=pWert
+comment2.target=void\ aendereWert(int)
+numComments=3
