@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.params=
+comment0.target=text()
+comment0.text=\r\n\ Konstruktor\ f\u00FCr\ Objekte\ der\ Klasse\ textwerkzeug\r\n
+comment1.params=pText
+comment1.target=boolean\ istPalindrom(java.lang.String)
+comment2.params=pText
+comment2.target=java.lang.String\ dreheUm(java.lang.String)
+numComments=3
