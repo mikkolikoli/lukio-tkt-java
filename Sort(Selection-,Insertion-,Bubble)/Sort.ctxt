@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Sort()
+comment1.params=a\ b
+comment1.target=void\ copy(int[],\ int[])
+comment2.target=void\ initialisiere()
+comment3.target=void\ ausgeben()
+comment4.target=void\ bubblesort()
+comment5.target=void\ insertionsort()
+comment6.target=void\ selectionsort()
+numComments=7

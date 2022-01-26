@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=pGebJahr\ pVor\ pNach\ pBeson
+comment0.target=Informatiker(int,\ String,\ String,\ String)
+comment1.params=pNach
+comment1.target=Informatiker(String)
+comment2.target=String\ getNachname()
+comment3.target=String\ getVorname()
+comment4.target=String\ getBesonderheit()
+comment5.target=int\ getGebJahr()
+comment6.params=pContent
+comment6.target=boolean\ isLess(Informatiker)
+comment7.params=pContent
+comment7.target=boolean\ isGreater(Informatiker)
+comment8.params=pContent
+comment8.target=boolean\ isEqual(Informatiker)
+numComments=9

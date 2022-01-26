@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=pContent
+comment0.target=boolean\ isGreater(ContentType)
+comment0.text=Wenn\ festgestellt\ wird,\ dass\ das\ Objekt,\ von\ dem\ die\ Methode\ aufgerufen\ wird,\ bzgl.\ der\ngewuenschten\ Ordnungsrelation\ groesser\ als\ das\ Objekt\ pContent\ ist,\ wird\ true\ geliefert.\ Sonst\nwird\ false\ geliefert.\n@param\ pContent\ndas\ mit\ dem\ aufrufenden\ Objekt\ zu\ vergleichende\ Objekt\ vom\ Typ\ ContentType\n@return\ true,\ wenn\ das\ aufrufende\ Objekt\ groesser\ ist\ als\ das\ Objekt\ pContent,\ sonst\ false\n\n
+comment1.params=pContent
+comment1.target=boolean\ isEqual(ContentType)
+comment1.text=Wenn\ festgestellt\ wird,\ dass\ das\ Objekt,\ von\ dem\ die\ Methode\ aufgerufen\ wird,\ bzgl.\ der\ngewuenschten\ Ordnungsrelation\ gleich\ gross\ wie\ das\ Objekt\ pContent\ ist,\ wird\ true\ geliefert.\nSonst\ wird\ false\ geliefert.\n@param\ pContent\ndas\ mit\ dem\ aufrufenden\ Objekt\ zu\ vergleichende\ Objekt\ vom\ Typ\ ContentType\n@return\ true,\ wenn\ das\ aufrufende\ Objekt\ gleich\ gross\ ist\ wie\ das\ Objekt\ pContent,\ sonst\ false\n\n
+comment2.params=pContent
+comment2.target=boolean\ isLess(ContentType)
+comment2.text=Wenn\ festgestellt\ wird,\ dass\ das\ Objekt,\ von\ dem\ die\ Methode\ aufgerufen\ wird,\ bzgl.\ der\ngewuenschten\ Ordnungsrelation\ kleiner\ als\ das\ Objekt\ pContent\ ist,\ wird\ true\ geliefert.\ Sonst\nwird\ false\ geliefert.\n@param\ pContent\ndas\ mit\ dem\ aufrufenden\ Objekt\ zu\ vergleichende\ Objekt\ vom\ Typ\ ContentType\n@return\ true,\ wenn\ das\ aufrufende\ Objekt\ kleiner\ ist\ als\ das\ Objekt\ pContent,\ sonst\ false\n\n
+numComments=3

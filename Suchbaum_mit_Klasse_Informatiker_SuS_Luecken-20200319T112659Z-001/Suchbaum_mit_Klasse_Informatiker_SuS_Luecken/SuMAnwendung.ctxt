@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=SuMAnwendung()
+comment0.text=\nKonstruktor\n\n
+comment1.target=void\ hatKnopfEinfuegenGeklickt()
+comment1.text=\nVorher\:\ Ereignis\ GeklicktvonhatKnopfEinfuegen\ fand\ statt.\nNachher\:\ (schreiben\ Sie,\ was\ in\ dieser\ Methode\ ausgefuehrt\ wird)\n\n
+comment2.target=void\ hatKnopfEntfernenGeklickt()
+comment2.text=\nVorher\:\ Ereignis\ GeklicktvonhatKnopfEntfernen\ fand\ statt.\nNachher\:\ (schreiben\ Sie,\ was\ in\ dieser\ Methode\ ausgefuehrt\ wird)\n\n
+comment3.target=void\ hatKnopfSuchenGeklickt()
+comment3.text=\nVorher\:\ Ereignis\ GeklicktvonhatKnopfSuchen\ fand\ statt.\nNachher\:\ (schreiben\ Sie,\ was\ in\ dieser\ Methode\ ausgefuehrt\ wird)\n\n
+comment4.target=void\ hatKnopfKleinsterGeklickt()
+comment4.text=\nVorher\:\ Ereignis\ GeklicktvonhatKnopfKleinster\ fand\ statt.\nNachher\:\ (schreiben\ Sie,\ was\ in\ dieser\ Methode\ ausgefuehrt\ wird)\n\n
+comment5.target=void\ hatKnopfGroessterGeklickt()
+comment5.text=\nVorher\:\ Ereignis\ GeklicktvonhatKnopfGroesster\ fand\ statt.\nNachher\:\ (schreiben\ Sie,\ was\ in\ dieser\ Methode\ ausgefuehrt\ wird)\n\n
+comment6.target=void\ hatKnopfKleinnachgrossGeklickt()
+comment6.text=\nVorher\:\ Ereignis\ GeklicktvonhatKnopfKleinnachgross\ fand\ statt.\nNachher\:\ (schreiben\ Sie,\ was\ in\ dieser\ Methode\ ausgefuehrt\ wird)\n\n
+comment7.target=void\ hatKnopfGroessnachkleinGeklickt()
+comment7.text=\nVorher\:\ Ereignis\ GeklicktvonhatKnopfGroessnachklein\ fand\ statt.\nNachher\:\ (schreiben\ Sie,\ was\ in\ dieser\ Methode\ ausgefuehrt\ wird)\n\n
+comment8.target=void\ hatKnopfGibwurzelGeklickt()
+comment8.text=\nVorher\:\ Ereignis\ GeklicktvonhatKnopfGibwurzel\ fand\ statt.\nNachher\:\ (schreiben\ Sie,\ was\ in\ dieser\ Methode\ ausgefuehrt\ wird)\n\n
+comment9.target=void\ hatKnopfEndeGeklickt()
+comment9.text=\nVorher\:\ Ereignis\ GeklicktvonhatKnopfEnde\ fand\ statt.\nNachher\:\ (schreiben\ Sie,\ was\ in\ dieser\ Methode\ ausgefuehrt\ wird)\n\n
+numComments=10

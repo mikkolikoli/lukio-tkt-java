@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Antragsverwaltung()
+comment1.target=void\ init()
+comment2.params=pAntrag
+comment2.target=void\ neuerAntrag(Antrag)
+comment3.target=Antrag\ gibOberstenAntrag()
+comment4.target=void\ entferneOberstenAntrag()
+comment5.target=void\ arbeiteAlleNeuenEin()
+numComments=6

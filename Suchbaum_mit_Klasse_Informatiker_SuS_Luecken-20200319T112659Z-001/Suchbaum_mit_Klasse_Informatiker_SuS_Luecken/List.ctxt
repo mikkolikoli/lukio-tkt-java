@@ -1,0 +1,33 @@
+#BlueJ class context
+comment0.target=List()
+comment0.text=\nEine\ leere\ Liste\ wird\ erzeugt.\n\n
+comment1.target=boolean\ isEmpty()
+comment1.text=\nDie\ Anfrage\ liefert\ den\ Wert\ true,\ wenn\ die\ Liste\ keine\ Objekte\ enthaelt,\nsonst\ liefert\ sie\ den\ Wert\ false.\n\n@return\ true,\ wenn\ die\ Liste\ leer\ ist,\ sonst\ false\n\n
+comment10.params=pList
+comment10.target=void\ concat(List<ContentType>)
+comment10.text=\nFalls\ es\ sich\ bei\ der\ Liste\ und\ pList\ um\ dasselbe\ Objekt\ handelt,\npList\ null\ oder\ eine\ leere\ Liste\ ist,\ geschieht\ nichts.<br\ />\nAnsonsten\ wird\ die\ Liste\ pList\ an\ die\ aktuelle\ Liste\ angehaengt.\nAnschliessend\ wird\ pList\ eine\ leere\ Liste.\ Das\ aktuelle\ Objekt\ bleibt\nunveraendert.\ Insbesondere\ bleibt\ hasAccess\ identisch.\n\n@param\ pList\ndie\ am\ Ende\ anzuhaengende\ Liste\ vom\ Typ\ List<ContentType>\n\n
+comment11.target=void\ remove()
+comment11.text=\nWenn\ die\ Liste\ leer\ ist\ oder\ es\ kein\ aktuelles\ Objekt\ gibt\ (hasAccess()\n\=\=\ false),\ geschieht\ nichts.<br\ />\nFalls\ es\ ein\ aktuelles\ Objekt\ gibt\ (hasAccess()\ \=\=\ true),\ wird\ das\naktuelle\ Objekt\ geloescht\ und\ das\ Objekt\ hinter\ dem\ geloeschten\ Objekt\nwird\ zum\ aktuellen\ Objekt.\ <br\ />\nWird\ das\ Objekt,\ das\ am\ Ende\ der\ Liste\ steht,\ geloescht,\ gibt\ es\ kein\naktuelles\ Objekt\ mehr.\n\n
+comment12.params=pNode
+comment12.target=ListNode\ getPrevious(ListNode)
+comment12.text=\nLiefert\ den\ Vorgaengerknoten\ des\ Knotens\ pNode.\ Ist\ die\ Liste\ leer,\ pNode\n\=\=\ null,\ pNode\ nicht\ in\ der\ Liste\ oder\ pNode\ der\ erste\ Knoten\ der\ Liste,\nwird\ null\ zurueckgegeben.\n\n@param\ pNode\nder\ Knoten,\ dessen\ Vorgaenger\ zurueckgegeben\ werden\ soll\n@return\ der\ Vorgaenger\ des\ Knotens\ pNode\ oder\ null,\ falls\ die\ Liste\ leer\ ist,\npNode\ \=\=\ null\ ist,\ pNode\ nicht\ in\ der\ Liste\ ist\ oder\ pNode\ der\ erste\ Knoten\nder\ Liste\ ist\n\n
+comment2.target=boolean\ hasAccess()
+comment2.text=\nDie\ Anfrage\ liefert\ den\ Wert\ true,\ wenn\ es\ ein\ aktuelles\ Objekt\ gibt,\nsonst\ liefert\ sie\ den\ Wert\ false.\n\n@return\ true,\ falls\ Zugriff\ moeglich,\ sonst\ false\n\n
+comment3.target=void\ next()
+comment3.text=\nFalls\ die\ Liste\ nicht\ leer\ ist,\ es\ ein\ aktuelles\ Objekt\ gibt\ und\ dieses\nnicht\ das\ letzte\ Objekt\ der\ Liste\ ist,\ wird\ das\ dem\ aktuellen\ Objekt\ in\nder\ Liste\ folgende\ Objekt\ zum\ aktuellen\ Objekt,\ andernfalls\ gibt\ es\ nach\nAusfuehrung\ des\ Auftrags\ kein\ aktuelles\ Objekt,\ d.h.\ hasAccess()\ liefert\nden\ Wert\ false.\n\n
+comment4.target=void\ toFirst()
+comment4.text=\nFalls\ die\ Liste\ nicht\ leer\ ist,\ wird\ das\ erste\ Objekt\ der\ Liste\ aktuelles\nObjekt.\ Ist\ die\ Liste\ leer,\ geschieht\ nichts.\n\n
+comment5.target=void\ toLast()
+comment5.text=\nFalls\ die\ Liste\ nicht\ leer\ ist,\ wird\ das\ letzte\ Objekt\ der\ Liste\naktuelles\ Objekt.\ Ist\ die\ Liste\ leer,\ geschieht\ nichts.\n\n
+comment6.target=ContentType\ getContent()
+comment6.text=\nFalls\ es\ ein\ aktuelles\ Objekt\ gibt\ (hasAccess()\ \=\=\ true),\ wird\ das\naktuelle\ Objekt\ zurueckgegeben,\ andernfalls\ (hasAccess()\ \=\=\ false)\ gibt\ndie\ Anfrage\ den\ Wert\ null\ zurueck.\n\n@return\ das\ aktuelle\ Objekt\ (vom\ Typ\ ContentType)\ oder\ null,\ wenn\ es\nkein\ aktuelles\ Objekt\ gibt\n\n
+comment7.params=pContent
+comment7.target=void\ setContent(ContentType)
+comment7.text=\nFalls\ es\ ein\ aktuelles\ Objekt\ gibt\ (hasAccess()\ \=\=\ true)\ und\ pContent\nungleich\ null\ ist,\ wird\ das\ aktuelle\ Objekt\ durch\ pContent\ ersetzt.\ Sonst\ngeschieht\ nichts.\n\n@param\ pContent\ndas\ zu\ schreibende\ Objekt\ vom\ Typ\ ContentType\n\n
+comment8.params=pContent
+comment8.target=void\ insert(ContentType)
+comment8.text=\nFalls\ es\ ein\ aktuelles\ Objekt\ gibt\ (hasAccess()\ \=\=\ true),\ wird\ ein\ neues\nObjekt\ vor\ dem\ aktuellen\ Objekt\ in\ die\ Liste\ eingefuegt.\ Das\ aktuelle\nObjekt\ bleibt\ unveraendert.\ <br\ />\nWenn\ die\ Liste\ leer\ ist,\ wird\ pContent\ in\ die\ Liste\ eingefuegt\ und\ es\ngibt\ weiterhin\ kein\ aktuelles\ Objekt\ (hasAccess()\ \=\=\ false).\ <br\ />\nFalls\ es\ kein\ aktuelles\ Objekt\ gibt\ (hasAccess()\ \=\=\ false)\ und\ die\ Liste\nnicht\ leer\ ist\ oder\ pContent\ gleich\ null\ ist,\ geschieht\ nichts.\n\n@param\ pContent\ndas\ einzufuegende\ Objekt\ vom\ Typ\ ContentType\n\n
+comment9.params=pContent
+comment9.target=void\ append(ContentType)
+comment9.text=\nFalls\ pContent\ gleich\ null\ ist,\ geschieht\ nichts.<br\ />\nAnsonsten\ wird\ ein\ neues\ Objekt\ pContent\ am\ Ende\ der\ Liste\ eingefuegt.\nDas\ aktuelle\ Objekt\ bleibt\ unveraendert.\ <br\ />\nWenn\ die\ Liste\ leer\ ist,\ wird\ das\ Objekt\ pContent\ in\ die\ Liste\ eingefuegt\nund\ es\ gibt\ weiterhin\ kein\ aktuelles\ Objekt\ (hasAccess()\ \=\=\ false).\n\n@param\ pContent\ndas\ anzuhaengende\ Objekt\ vom\ Typ\ ContentType\n\n
+numComments=13

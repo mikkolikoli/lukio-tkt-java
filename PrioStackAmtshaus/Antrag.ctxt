@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=pName\ pPrio
+comment0.target=Antrag(String,\ int)
+comment1.target=String\ gibName()
+comment2.target=int\ gibPrio()
+comment3.params=pPrioObjekt
+comment3.target=boolean\ istGroesserAls(Antrag)
+comment4.params=pPrioObjekt
+comment4.target=boolean\ istKleinerAls(Antrag)
+comment5.params=pPrioObjekt
+comment5.target=boolean\ istGleichWie(Antrag)
+numComments=6

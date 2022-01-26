@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.target=Informatikerbaum()
+comment1.params=pInformatiker
+comment1.target=void\ rein(Informatiker)
+comment10.params=pBaum
+comment10.target=int\ anInformatiker(BinarySearchTree<Informatiker>)
+comment11.target=Informatiker\ kleinster()
+comment12.target=Informatiker\ groesster()
+comment13.params=pBST\ pGeb
+comment13.target=List\ vorGeborenRek(BinarySearchTree<Informatiker>,\ int)
+comment14.params=pGeb
+comment14.target=List\ vorGeboren(int)
+comment2.params=pInformatiker
+comment2.target=void\ raus(Informatiker)
+comment3.params=pInformatiker
+comment3.target=boolean\ suchen(Informatiker)
+comment4.target=Informatiker\ gibWurzel()
+comment5.params=pBaum
+comment5.target=String\ kleinGross(BinarySearchTree<Informatiker>)
+comment6.params=pBaum
+comment6.target=String\ was(BinarySearchTree<Informatiker>)
+comment7.target=String\ alleKleinGross()
+comment8.params=pBaum
+comment8.target=String\ grossKlein(BinarySearchTree<Informatiker>)
+comment9.target=String\ alleGrossKlein()
+numComments=15

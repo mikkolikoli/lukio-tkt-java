@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=BinarySearchTree()
+comment0.text=\nDer\ Konstruktor\ erzeugt\ einen\ leeren\ Suchbaum.\n\n
+comment1.target=boolean\ isEmpty()
+comment1.text=\nDiese\ Anfrage\ liefert\ den\ Wahrheitswert\ true,\ wenn\ der\ Suchbaum\ leer\ ist,\nsonst\ liefert\ sie\ den\ Wert\ false.\n\n@return\ true,\ wenn\ der\ binaere\ Suchbaum\ leer\ ist,\ sonst\ false\n\n\n
+comment10.target=BSTNode<ContentType>\ getNodeOfRightSuccessor()
+comment2.params=pContent
+comment2.target=void\ insert(ContentType)
+comment2.text=\nFalls\ der\ Parameter\ null\ ist,\ geschieht\ nichts.<br\ />\nFalls\ ein\ bezueglich\ der\ verwendeten\ Vergleichsmethode\ isEqual\ mit\npContent\ uebereinstimmendes\ Objekt\ im\ geordneten\ binaeren\ Suchbau\nenthalten\ ist,\ passiert\ nichts.\ <br\ />\nAchtung\:\ hier\ wird\ davon\ ausgegangen,\ dass\ isEqual\ genau\ dann\ true\nliefert,\ wenn\ isLess\ und\ isGreater\ false\ liefern.\ <br\ />\nAndernfalls\ (isLess\ oder\ isGreater)\ wird\ das\ Objekt\ pContent\ entsprechend\nder\ vorgegebenen\ Ordnungsrelation\ in\ den\ BinarySearchTree\ eingeordnet.\n\n@param\ pContent\neinzufuegendes\ Objekt\ vom\ Typ\ ContentType\n\n\n
+comment3.target=BinarySearchTree<ContentType>\ getLeftTree()
+comment3.text=\nDiese\ Anfrage\ liefert\ den\ linken\ Teilbaum\ des\ binaeren\ Suchbaumes.\ <br\ />\nWenn\ er\ leer\ ist,\ wird\ null\ zurueckgegeben.\n\n@return\ den\ linken\ Teilbaum\ (Objekt\ vom\ Typ\ BinarySearchTree<ContentType>)\ \nbzw.\ null,\ wenn\ der\ Suchbaum\ leer\ ist\n\n\n
+comment4.target=ContentType\ getContent()
+comment4.text=\nDiese\ Anfrage\ liefert\ das\ Inhaltsobjekt\ des\ Suchbaumes.\ Wenn\ der\ Suchbaum\nleer\ ist,\ wird\ null\ zurueckgegeben.\n\n@return\ das\ Inhaltsobjekt\ vom\ Typ\ ContentType\ bzw.\ null,\ wenn\ der\ aktuelle\nSuchbaum\ leer\ ist\n\n\n
+comment5.target=BinarySearchTree<ContentType>\ getRightTree()
+comment5.text=\nDiese\ Anfrage\ liefert\ den\ rechten\ Teilbaum\ des\ binaeren\ Suchbaumes.\ <br\ />\nWenn\ er\ leer\ ist,\ wird\ null\ zurueckgegeben.\n\n@return\ den\ rechten\ Teilbaum\ (Objekt\ vom\ Typ\ BinarySearchTree<ContentType>)\ \nbzw.\ null,\ wenn\ der\ aktuelle\ Suchbaum\ leer\ ist\n\n\n
+comment6.params=pContent
+comment6.target=void\ remove(ContentType)
+comment6.text=\nFalls\ ein\ bezueglich\ der\ verwendeten\ Vergleichsmethode\ mit\npContent\ uebereinstimmendes\ Objekt\ im\ binaeren\ Suchbaum\ enthalten\nist,\ wird\ dieses\ entfernt.\ Falls\ der\ Parameter\ null\ ist,\ aendert\ sich\nnichts.\n\n@param\ pContent\nzu\ entfernendes\ Objekt\ vom\ Typ\ ContentType\n\n\n
+comment7.params=pContent
+comment7.target=ContentType\ search(ContentType)
+comment7.text=\nFalls\ ein\ bezueglich\ der\ verwendeten\ Vergleichsmethode\ isEqual\ mit\npContent\ uebereinstimmendes\ Objekt\ im\ binaeren\ Suchbaum\ enthalten\ ist,\nliefert\ die\ Anfrage\ dieses,\ ansonsten\ wird\ null\ zurueckgegeben.\ <br\ />\nFalls\ der\ Parameter\ null\ ist,\ wird\ null\ zurueckgegeben.\n\n@param\ pContent\nzu\ suchendes\ Objekt\ vom\ Typ\ ContentType\n@return\ das\ gefundene\ Objekt\ vom\ Typ\ ContentType,\ bei\ erfolgloser\ Suche\ null\n\n\n
+comment8.target=BinarySearchTree<ContentType>\ ancestorOfSmallRight()
+comment8.text=\nDie\ Methode\ liefert\ denjenigen\ Baum,\ dessen\ linker\ Nachfolger\ keinen\ linken\nNachfolger\ mehr\ hat.\ Es\ ist\ also\ spaeter\ moeglich,\ in\ einem\ Baum\ im\nrechten\ Nachfolger\ den\ Vorgaenger\ des\ linkesten\ Nachfolgers\ zu\ finden.\n\n\n
+comment9.target=BSTNode<ContentType>\ getNodeOfLeftSuccessor()
+numComments=11

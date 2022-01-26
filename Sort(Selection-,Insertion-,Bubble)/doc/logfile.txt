@@ -1,0 +1,21 @@
+Class documentation
+<---- javadoc command: ---->
+E:\BlueJ_USB_Version\Programme\JDK\bin\javadoc.exe
+-author
+-version
+-nodeprecated
+-public
+-source
+1.5
+-noindex
+-notree
+-nohelp
+-nonavbar
+-d
+E:\Sort(Selection-,Insertion-,Bubble)\doc
+-classpath
+E:\BlueJ_USB_Version\Programme\BlueJ\lib\bluejcore.jar;E:\BlueJ_USB_Version\Programme\BlueJ\lib\junit.jar;E:\BlueJ_USB_Version\Programme\BlueJ\lib\userlib\mysql-connector-java-5.0.6-bin.jar;E:\BlueJ_USB_Version\Programme\BlueJ\lib\userlib\mysql-connector-java-5.1.6-bin.jar;E:\BlueJ_USB_Version\Programme\BlueJ\lib\userlib\QTJava.zip;E:\BlueJ_USB_Version\Programme\BlueJ\lib\userlib\SuMEreignis.jar;E:\BlueJ_USB_Version\Programme\BlueJ\lib\userlib\SuMKern.jar;E:\BlueJ_USB_Version\Programme\BlueJ\lib\userlib\SuMKomponenten.jar;E:\BlueJ_USB_Version\Programme\BlueJ\lib\userlib\SuMMultimedia.jar;E:\BlueJ_USB_Version\Programme\BlueJ\lib\userlib\SuMNetz.jar;E:\BlueJ_USB_Version\Programme\BlueJ\lib\userlib\SuMSQL.jar;E:\BlueJ_USB_Version\Programme\BlueJ\lib\userlib\SuMStrukturen.jar;E:\BlueJ_USB_Version\Programme\BlueJ\lib\userlib\SuMWerkzeuge.jar;E:\Sort(Selection-,Insertion-,Bubble)
+E:\Sort(Selection-,Insertion-,Bubble)\Sort.java
+<---- end of javadoc command ---->
+javadoc: error - Cannot find doclet class com.sun.tools.doclets.standard.Standard
+1 error
