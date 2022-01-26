@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=pName\ pStatus
+comment0.target=Patient(java.lang.String,\ int)
+comment1.params=
+comment1.target=java.lang.String\ name()
+comment2.params=
+comment2.target=int\ gibStatus()
+comment3.params=pPrioObject
+comment3.target=boolean\ istGroesserAls(Patient)
+comment4.params=pPrioObject
+comment4.target=boolean\ istKleinerAls(Patient)
+comment5.params=pPrioObject
+comment5.target=boolean\ istGleichWie(Patient)
+numComments=6

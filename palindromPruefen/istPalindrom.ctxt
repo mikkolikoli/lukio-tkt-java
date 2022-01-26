@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=istPalindrom()
+comment1.params=pEingabe
+comment1.target=boolean\ palindromPruefen(java.lang.String)
+comment2.params=pText
+comment2.target=java.lang.String\ removeSpaces(java.lang.String)
+numComments=3

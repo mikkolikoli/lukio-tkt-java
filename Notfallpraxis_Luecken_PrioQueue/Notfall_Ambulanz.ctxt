@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Notfall_Ambulanz()
+comment0.text=\r\n\ Konstruktor\r\n
+comment1.params=
+comment1.target=void\ hatKnopfAnmeldenGeklickt()
+comment1.text=\r\n\ Vorher\:\ Ereignis\ GeklicktvonhatKnopfAnmelden\ fand\ statt.\r\n\ Nachher\:\ (schreiben\ Sie,\ was\ in\ dieser\ Methode\ ausgefuehrt\ wird)\r\n
+comment2.params=
+comment2.target=void\ hatKnopfAbmeldenGeklickt()
+comment2.text=Auch\r\n\ Vorher\:\ Ereignis\ GeklicktvonhatKnopfAbmelden\ fand\ statt.\r\n\ Nachher\:\ (schreiben\ Sie,\ was\ in\ dieser\ Methode\ ausgefuehrt\ wird)\r\n
+comment3.params=
+comment3.target=void\ hatKnopfBeendenGeklickt()
+comment3.text=\r\n\ Vorher\:\ Ereignis\ GeklicktvonhatKnopfBeenden\ fand\ statt.\r\n\ Nachher\:\ (schreiben\ Sie,\ was\ in\ dieser\ Methode\ ausgefuehrt\ wird)\r\n
+comment4.params=
+comment4.target=void\ zeigeWarteraum()
+numComments=5

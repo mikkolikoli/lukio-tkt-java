@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.params=
+comment0.target=PrioQueue()
+comment1.params=pPrio
+comment1.target=void\ prioEnqueue(PrioObject)
+numComments=2

@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=pPrioObject
+comment0.target=boolean\ istGroesserAls(ContentType)
+comment1.params=pPrioObject
+comment1.target=boolean\ istKleinerAls(ContentType)
+comment2.params=pPrioObject
+comment2.target=boolean\ istGleichWie(ContentType)
+numComments=3

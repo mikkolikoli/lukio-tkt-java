@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Queue()
+comment0.text=\nEine\ leere\ Schlange\ wird\ erzeugt.\ \nObjekte,\ die\ in\ dieser\ Schlange\ verwaltet\ werden,\ muessen\ vom\ Typ\nsein.\n\n
+comment1.target=boolean\ isEmpty()
+comment1.text=\nDie\ Anfrage\ liefert\ den\ Wert\ true,\ wenn\ die\ Schlange\ keine\ Objekte\ enthaelt,\ \nsonst\ liefert\ sie\ den\ Wert\ false.\n\n@return\ true,\ falls\ die\ Schlange\ leer\ ist,\ sonst\ false\n\n
+comment2.params=pContent
+comment2.target=void\ enqueue(ContentType)
+comment2.text=\nDas\ Objekt\ pContentType\ wird\ BEIM\ TAIL\ an\ die\ Schlange\ angehaengt.\ \nFalls\ pContentType\ gleich\ null\ ist,\ bleibt\ die\ Schlange\ unveraendert.\n\n@param\ pContent\ndas\ anzuhaengende\ Objekt\ vom\ Typ\ ContentType\n\n
+comment3.target=void\ dequeue()
+comment3.text=\nDas\ erste\ Objekt\ wird\ BEIM\ HEAD\ aus\ der\ Schlange\ entfernt.\ \nFalls\ die\ Schlange\ leer\ ist,\ wird\ sie\ nicht\ veraendert.\n\n
+comment4.target=ContentType\ front()
+comment4.text=\nDie\ Anfrage\ liefert\ das\ erste\ Objekt\ der\ Schlange.\ \nDie\ Schlange\ bleibt\ unveraendert.\ \nFalls\ die\ Schlange\ leer\ ist,\ wird\ null\ zurueckgegeben.\n\n@return\ das\ erste\ Objekt\ der\ Schlange\ vom\ Typ\ ContentType\ oder\ null,\nfalls\ die\ Schlange\ leer\ ist\n\n
+numComments=5
