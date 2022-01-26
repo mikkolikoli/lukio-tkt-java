@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.params=pAnzahl
+comment0.target=Bruederverwaltung(int)
+comment1.params=pBruder
+comment1.target=int\ gibAnzahl(int)
+comment2.params=pBruder
+comment2.target=double\ gibGesamtWert(int)
+comment3.params=pBruder
+comment3.target=double\ gibDurchschnitt(int)
+comment4.params=pBruder\ pAnzahl
+comment4.target=void\ addWurf(int,\ int)
+comment5.params=pBruder
+comment5.target=int\ besterWurf(int)
+comment6.params=pBruder
+comment6.target=int\ verbesserung(int)
+comment7.params=pBruder
+comment7.target=java.lang.String\ alleWuerfe(int)
+numComments=8

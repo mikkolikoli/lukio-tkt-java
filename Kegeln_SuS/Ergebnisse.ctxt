@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Ergebnisse()
+comment1.params=pWurf
+comment1.target=void\ neuerWurf(Wurf)
+comment2.params=
+comment2.target=Wurf\ gibErstesErgebnis()
+comment3.params=
+comment3.target=int\ gibAnzahl()
+comment4.params=
+comment4.target=int\ gibGesamt()
+comment5.params=
+comment5.target=double\ gibDurchschnitt()
+numComments=6

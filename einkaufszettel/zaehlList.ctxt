@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=zaehlList()
+comment1.params=
+comment1.target=int\ getLength()
+comment2.params=pContent
+comment2.target=void\ append(java.lang.Object)
+comment3.params=pContent
+comment3.target=void\ insert(java.lang.Object)
+comment4.params=pList
+comment4.target=void\ concat(zaehlList)
+comment5.params=
+comment5.target=java.lang.String[]\ toStringArray()
+numComments=6
